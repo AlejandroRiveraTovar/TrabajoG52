@@ -39,11 +39,12 @@ public class GameControllerPreguntas : MonoBehaviour
         txtrespuesta3.text = listaPM[6].Respuesta3;
         txtrespuesta4.text = listaPM[6].Respuesta4;
         respuestaCorrecta = listaPM[6].RespuestaCorrecta;
+
     }
 
     public void respuesta1()
     {
-        if(txtrespuesta1.Equals(respuestaCorrecta))
+        if (txtrespuesta1.Equals(respuestaCorrecta))
         {
             Debug.Log("Respuesta 1 Correcta");
         }
@@ -116,6 +117,6 @@ public class GameControllerPreguntas : MonoBehaviour
             Debug.Log("ERROR " + e.ToString());
         }
     }
-    
+
     #endregion
 }

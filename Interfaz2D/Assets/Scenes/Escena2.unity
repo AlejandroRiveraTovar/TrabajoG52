@@ -1029,6 +1029,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d8cb17d0a19a2f45aa2bbb26c58c1ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  txtPregunta: {fileID: 0}
+  txtrespuesta1: {fileID: 0}
+  txtrespuesta2: {fileID: 0}
+  txtrespuesta3: {fileID: 0}
+  txtrespuesta4: {fileID: 0}
 --- !u!4 &361716151
 Transform:
   m_ObjectHideFlags: 0
@@ -2277,6 +2282,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 353e0113781ec2043821192ff9faf539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  txtPreguntaFacil: {fileID: 0}
+  txtVerdaderoFacil: {fileID: 0}
+  txtFalsoFacil: {fileID: 0}
+  txtPreguntaDificil: {fileID: 0}
+  txtVerdaderoDificil: {fileID: 0}
+  txtFalsoDificil: {fileID: 0}
 --- !u!4 &1003236672
 Transform:
   m_ObjectHideFlags: 0
@@ -3205,6 +3216,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cdad08240c2e0049a42c2ed2c47c439, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  txtPreguntaFacil: {fileID: 0}
+  txtrespuesta1Facil: {fileID: 0}
+  txtrespuesta2Facil: {fileID: 0}
+  txtrespuesta3Facil: {fileID: 0}
+  txtrespuesta4Facil: {fileID: 0}
+  txtPreguntaDificil: {fileID: 0}
+  txtrespuesta1Dificil: {fileID: 0}
+  txtrespuesta2Dificil: {fileID: 0}
+  txtrespuesta3Dificil: {fileID: 0}
+  txtrespuesta4Dificil: {fileID: 0}
 --- !u!4 &1436296433
 Transform:
   m_ObjectHideFlags: 0
@@ -4001,6 +4022,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47c5afa137082584cbd62eb5c37ec048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  txtPreguntaFacil: {fileID: 0}
+  txtrespuestaFacil: {fileID: 0}
+  txtPreguntaDificil: {fileID: 0}
+  txtrespuestaDificil: {fileID: 0}
 --- !u!4 &1687779801
 Transform:
   m_ObjectHideFlags: 0

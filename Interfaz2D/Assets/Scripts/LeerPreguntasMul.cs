@@ -1,3 +1,4 @@
+using models;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using UnityEngine;
 public class LeerPreguntasM : MonoBehaviour
 {
 
-    private List<PreguntasMultiples> preguntasMultiplesFaciles;
+    private List<PreguntasMultiples> preguntasMultiplesFaciles; 
 
     string lineaLeidaFacil;
 

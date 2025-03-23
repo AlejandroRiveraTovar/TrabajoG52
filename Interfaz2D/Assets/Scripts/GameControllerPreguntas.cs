@@ -8,7 +8,7 @@ using TMPro;
 
 public class GameControllerPreguntas : MonoBehaviour
 {
-    List<PreguntasMultiples> listaPM;
+    List<PreguntasMultiples> listaPM; 
     string lineaLeida;
 
     public TextMeshProUGUI txtPregunta;

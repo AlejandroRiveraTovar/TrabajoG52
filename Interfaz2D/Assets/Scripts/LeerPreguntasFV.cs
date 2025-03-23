@@ -61,10 +61,10 @@ public class LeerPreguntasFV : MonoBehaviour
                 string versiculoFacil = lineapartida[4];
                 string dificultadFacil = lineapartida[5];
 
-                PreguntasFV objPA = new PreguntasFV(preguntaFacil, verdaderoFacil, falsoFacil, 
+                PreguntasFV objPFV = new PreguntasFV(preguntaFacil, verdaderoFacil, falsoFacil, 
                     respuestaCorrectaFacil, versiculoFacil, dificultadFacil);
 
-                preguntasFVFaciles.Add(objPA);
+                preguntasFVFaciles.Add(objPFV);
 
             }
             Debug.Log("Tamaño de la lista preguntas FV " + preguntasFVFaciles.Count);

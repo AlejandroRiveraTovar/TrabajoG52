@@ -113,24 +113,24 @@ public class GameController : MonoBehaviour
 
         foreach (var pregunta in lectorFV.PreguntasFVFaciles)
         {
-            GameObject ObjFV = new GameObject("PreguntaFV");
-            ObjFV.AddComponent<LeerPreguntasFV>();
-            var component = ObjFV.GetComponent<PreguntasFV>();
+            GameObject objPFV = new GameObject("PreguntaFV");
+            objPFV.AddComponent<LeerPreguntasFV>();
+            var component = objPFV.GetComponent<PreguntasFV>();
             component.Pregunta = pregunta.Pregunta;
             component.Verdadero = pregunta.Verdadero;
             component.Falso = pregunta.Falso;
             component.RespuestaCorrecta = pregunta.RespuestaCorrecta;
             component.Versiculo = pregunta.Versiculo;
             component.Dificultad = pregunta.Dificultad;
-            preguntaRondaActual.Add(ObjFV);
+            preguntaRondaActual.Add(objPFV);
 
         }
 
         foreach (var pregunta in lectorPM.PreguntasMultiplesFaciles)
         {
-            GameObject ObjPM = new GameObject("PreguntaMultiple");
-            ObjPM.AddComponent<LeerPreguntasM>();
-            var component = ObjPM.GetComponent<PreguntasMultiples>();
+            GameObject objPM = new GameObject("PreguntaMultiple");
+            objPM.AddComponent<LeerPreguntasM>();
+            var component = objPM.GetComponent<PreguntasMultiples>();
             component.Pregunta = pregunta.Pregunta;
             component.Respuesta1 = pregunta.Respuesta1;
             component.Respuesta2 = pregunta.Respuesta2;
@@ -139,7 +139,7 @@ public class GameController : MonoBehaviour
             component.RespuestaCorrecta = pregunta.RespuestaCorrecta;
             component.Versiculo = pregunta.Versiculo;
             component.Dificultad = pregunta.Dificultad;
-            preguntaRondaActual.Add(ObjPM);
+            preguntaRondaActual.Add(objPM);
 
         }
 
@@ -157,30 +157,30 @@ public class GameController : MonoBehaviour
         preguntaRondaActual = new List<GameObject>();
         foreach (var pregunta in lectorPA.PreguntasAbiertasDificiles)
         {
-            GameObject ObjPA = new GameObject("PreguntaAbierta");
-            ObjPA.AddComponent<LeerPreguntasAbiertas>();
-            var component = ObjPA.GetComponent<PreguntasAbiertas>();
+            GameObject objPA = new GameObject("PreguntaAbierta");
+            objPA.AddComponent<LeerPreguntasAbiertas>();
+            var component = objPA.GetComponent<PreguntasAbiertas>();
             component.Pregunta = pregunta.Pregunta;
             component.Respuesta = pregunta.Respuesta;
             component.RespuestaCorrecta = pregunta.RespuestaCorrecta;
             component.Versiculo = pregunta.Versiculo;
             component.Dificultad = pregunta.Dificultad;
-            preguntaRondaActual.Add(ObjPA);
+            preguntaRondaActual.Add(objPA);
 
         }
 
         foreach (var pregunta in lectorFV.PreguntasFVDificiles)
         {
-            GameObject ObjFV = new GameObject("PreguntaFV");
-            ObjFV.AddComponent<LeerPreguntasFV>();
-            var component = ObjFV.GetComponent<PreguntasFV>();
+            GameObject objFV = new GameObject("PreguntaFV");
+            objFV.AddComponent<LeerPreguntasFV>();
+            var component = objFV.GetComponent<PreguntasFV>();
             component.Pregunta = pregunta.Pregunta;
             component.Verdadero = pregunta.Verdadero;
             component.Falso = pregunta.Falso;
             component.RespuestaCorrecta = pregunta.RespuestaCorrecta;
             component.Versiculo = pregunta.Versiculo;
             component.Dificultad = pregunta.Dificultad;
-            preguntaRondaActual.Add(ObjFV);
+            preguntaRondaActual.Add(objFV);
 
         }
 

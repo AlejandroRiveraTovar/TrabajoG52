@@ -1704,7 +1704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &578554689
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3525,12 +3525,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 353e0113781ec2043821192ff9faf539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  txtPreguntaFacil: {fileID: 0}
-  txtVerdaderoFacil: {fileID: 0}
-  txtFalsoFacil: {fileID: 0}
-  txtPreguntaDificil: {fileID: 0}
-  txtVerdaderoDificil: {fileID: 0}
-  txtFalsoDificil: {fileID: 0}
+  txtPreguntaFacil: {fileID: 908419448}
+  txtVerdaderoFacil: {fileID: 336688557}
+  txtFalsoFacil: {fileID: 9123044}
+  txtPreguntaDificil: {fileID: 908419448}
+  txtVerdaderoDificil: {fileID: 336688557}
+  txtFalsoDificil: {fileID: 9123044}
 --- !u!4 &1003236672
 Transform:
   m_ObjectHideFlags: 0
@@ -4594,9 +4594,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ListaGameObjects:
-  - {fileID: 1003236670}
-  - {fileID: 1687779799}
-  - {fileID: 1436296431}
+  - {fileID: 1567775276}
+  - {fileID: 317520529}
+  - {fileID: 754949323}
 --- !u!4 &1361286137
 Transform:
   m_ObjectHideFlags: 0
@@ -4641,16 +4641,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cdad08240c2e0049a42c2ed2c47c439, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  txtPreguntaFacil: {fileID: 0}
-  txtrespuesta1Facil: {fileID: 0}
-  txtrespuesta2Facil: {fileID: 0}
-  txtrespuesta3Facil: {fileID: 0}
-  txtrespuesta4Facil: {fileID: 0}
-  txtPreguntaDificil: {fileID: 0}
-  txtrespuesta1Dificil: {fileID: 0}
-  txtrespuesta2Dificil: {fileID: 0}
-  txtrespuesta3Dificil: {fileID: 0}
-  txtrespuesta4Dificil: {fileID: 0}
+  txtPreguntaFacil: {fileID: 1984357698}
+  txtrespuesta1Facil: {fileID: 1867863664}
+  txtrespuesta2Facil: {fileID: 1081591492}
+  txtrespuesta3Facil: {fileID: 1263312624}
+  txtrespuesta4Facil: {fileID: 492452953}
+  txtPreguntaDificil: {fileID: 1984357698}
+  txtrespuesta1Dificil: {fileID: 1867863664}
+  txtrespuesta2Dificil: {fileID: 1081591492}
+  txtrespuesta3Dificil: {fileID: 1263312624}
+  txtrespuesta4Dificil: {fileID: 492452953}
 --- !u!4 &1436296433
 Transform:
   m_ObjectHideFlags: 0
@@ -5221,7 +5221,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1567775277
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5568,9 +5568,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47c5afa137082584cbd62eb5c37ec048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  txtPreguntaFacil: {fileID: 0}
+  txtPreguntaFacil: {fileID: 1017258883}
   txtrespuestaFacil: {fileID: 0}
-  txtPreguntaDificil: {fileID: 0}
+  txtPreguntaDificil: {fileID: 1017258883}
   txtrespuestaDificil: {fileID: 0}
 --- !u!4 &1687779801
 Transform:

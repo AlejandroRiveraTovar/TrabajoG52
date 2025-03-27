@@ -115,4 +115,9 @@ public class LeerPreguntasM : MonoBehaviour
 
     #endregion
 
+
+    //public void SIGUIENTEPREGUNTA ()
+    //{
+    //    if 
+    //}
 }

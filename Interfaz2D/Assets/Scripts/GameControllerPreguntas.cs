@@ -33,6 +33,7 @@ public class GameControllerPreguntas : MonoBehaviour
 
     public void mostrarPregunta()
     {
+
         txtPregunta.text = listaPM[6].Pregunta;
         txtrespuesta1.text = listaPM[6].Respuesta1;
         txtrespuesta2.text = listaPM[6].Respuesta2;
@@ -42,7 +43,7 @@ public class GameControllerPreguntas : MonoBehaviour
 
     }
 
-    public void respuesta1()
+    public void respuesta1()    
     {
         if (txtrespuesta1.Equals(respuestaCorrecta))
         {

@@ -18,8 +18,13 @@ public class GameController : MonoBehaviour
     List<PreguntasMultiples> listaPM;
     List<PreguntasFV> listaPFV;
     List<PreguntasAbiertas> listaPA;
-    string lineaLeida; 
-
+    string lineaLeida;
+    public TextMeshProUGUI TextPregunta;
+    public TextMeshProUGUI TxtRespuesta1;
+    public TextMeshProUGUI TxtRespuesta2;
+    public TextMeshProUGUI TxtRespuesta3;
+    public TextMeshProUGUI TxtRespuesta4;
+    string respuestaCorrecta;
 
 
 
@@ -36,16 +41,28 @@ public class GameController : MonoBehaviour
     private List<GameObject> preguntaRondaActual;
 
 
-    private List<GameObject> preguntasFaciles = new List<GameObject>();
-    private List<GameObject> preguntasDificiles = new List<GameObject>();
-    private List<GameObject> listaActualPreguntas;
+    private List<GameObject> preguntas;
+
+    public void mostrarPregunta()
+    {
+
+
+        TextPregunta.text = ListaGameObjects[6].Pregunta;
+        TxtRespuesta1.text = ListaGameObjects[6].BRespuesta1;
+        TxtRespuesta2.text = ListaGameObjects[6].BRespuesta2;
+        TxtRespuesta3.text = ListaGameObjects[6].BRespuesta3;
+        TxtRespuesta4.text = ListaGameObjects[6].BRespuesta4;
+        respuestaCorrecta = ListaGameObjects[6].RespuestaCorrecta;
+
+    }
 
     void Start()
     {
         lectorPA = GetComponent<LeerPreguntasAbiertas>();
         lectorFV = GetComponent<LeerPreguntasFV>();
         lectorPM = GetComponent<LeerPreguntasM>();
-
+        preguntas = new List<GameObject>();
+        
         CargarPregunta();
         
 
@@ -58,6 +75,11 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
+
+
+
 
     }
 
